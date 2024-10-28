@@ -950,6 +950,13 @@ margin-bottom: 50px;
 margin-top: 30px;
 }
 
+#center_call {
+  position: relative;
+  width: 1440px;
+  margin: auto;
+}
+
+
 #call {
   background: url("../images/img_bg_modal.png") no-repeat center;
   height: 1026px;
@@ -957,14 +964,31 @@ margin-top: 30px;
   margin: auto;
   position: absolute;
   opacity: 0;
-  transform: translate(-101%, -57%);
+  transform: translate(0%, -102%);
   z-index: 200;
   transition:  all 0.8s;
+  overflow: scroll;
+
+}
+#call::-webkit-scrollbar {
+  width: 0px;
+}
+
+#call::-webkit-scrollbar-track {
+  background: #d4d4d4;
+}
+
+
+
+#call::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+  border: 3px solid #d4d4d4;
 }
 
 .show_callback {
   opacity: 1 !important;
-  transform: translate(0%, -66%) !important;
+  transform: translate(0%, -1%) !important;
 }
 
 #call h6 {
@@ -984,6 +1008,11 @@ margin-top: 30px;
 
 }
 
+
+#position_call {
+  position: fixed;
+  z-index: 300;
+}
 #call .call {
   display: grid;
   grid-template-columns: 753px 610px;
@@ -1097,10 +1126,13 @@ height: 510px;
 }
 
 #call .content {
-  margin: 180px 10px 10px -43px;
+  margin: 180px 0px 10px -43px;
   position: absolute;
   z-index: 100;
   vertical-align: bottom;
+  overflow: scroll;
+  width: 596px;
+  height: 536px;
 }
 
 #request {
