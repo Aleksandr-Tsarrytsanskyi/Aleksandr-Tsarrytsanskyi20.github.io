@@ -1108,7 +1108,7 @@ height: 510px;
   height: 1024px;
   width: 1440px;
   margin: 20px auto;
-  position: absolute;
+  position: relative;
   transform: translate(-100%, -100%);
   opacity: 0;
   z-index: 200;
