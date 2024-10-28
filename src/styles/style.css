@@ -955,11 +955,11 @@ margin-top: 30px;
   height: 1026px;
   width: 1440px;
   margin: auto;
-  position: relative;
+  position: absolute;
   opacity: 0;
   transform: translate(-101%, -57%);
   z-index: 200;
-  transition:  all 1s;
+  transition:  all 0.8s;
 }
 
 .show_callback {
