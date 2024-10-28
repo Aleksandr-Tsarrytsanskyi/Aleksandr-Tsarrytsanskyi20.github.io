@@ -780,7 +780,7 @@ body {
   width: 1158px;
   margin: auto;
   border-radius: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin-top: 100px;
 }
 
@@ -838,7 +838,8 @@ body {
 }
 
 #callback img {
-  margin-top: 80px;
+  margin-top: 104px;
+  position: absolute;
 }
 
 #callback .m_left {
@@ -895,11 +896,21 @@ body {
   float: left;
 }
 
+#call .close {
+  float: right;
+  position: absolute;
+  margin: 15px 0px 0px 448px;
+  cursor: pointer;
+}
+
+#call  .close_form {
+  float: right;
+}
 
 #footer .phone {
   margin-top: 20px;
   display: block;
-  margin-left: 20px;
+  margin-left: 90px;
 }
 
 #footer .phone:hover {
@@ -989,6 +1000,11 @@ margin-top: 30px;
 .show_callback {
   opacity: 1 !important;
   transform: translate(0%, -1%) !important;
+}
+
+.hide_callback {
+  transform: translate(0%, -102%);
+  opacity: 0;
 }
 
 #call h6 {
@@ -1121,6 +1137,8 @@ height: 510px;
   margin-right: 0;
 }
 
+
+
 #call .call .cell:last-child {
   vertical-align: bottom;
 }
@@ -1136,19 +1154,26 @@ height: 510px;
 }
 
 #request {
-  background: url("../images/bottom-view-building1.png") no-repeat center;
-  height: 1024px;
+  background: url("../images/bg_request.png") no-repeat center;
+  height: 869px;
   width: 1440px;
   margin: 20px auto;
-  position: relative;
-  transform: translate(-100%, -100%);
+  position: fixed;
+  transform: translate( 0%, -104%);
   opacity: 0;
-  z-index: 200;
+  z-index: 300;
   transition: all 1s;
 }
 
+#position_request {
+ width: 1440px;
+ margin: auto;
+}
+
+
+
 .show_request {
-  transform: translate(0%, 0%) !important;
+  transform: translate(0%, -4%) !important;
   opacity: 1 !important;
 }
 
@@ -1168,7 +1193,7 @@ height: 510px;
 
 #request .cell {
  background-color: #fff;
- height: 1024px;
+ height: 825px;
  float: right;
  padding: 0 60px 0 20px;
  margin-right: 200px;
