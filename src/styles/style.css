@@ -1168,11 +1168,9 @@ height: 510px;
 }
 
 #position_request {
- width: 1440px;
- margin: auto;
+  position: relative;
+  width: 1440px;
 }
-
-
 
 .show_request {
   transform: translate(-158px, -30px) !important;
