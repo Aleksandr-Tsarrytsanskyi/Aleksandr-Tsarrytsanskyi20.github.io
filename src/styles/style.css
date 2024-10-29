@@ -1175,7 +1175,7 @@ height: 510px;
 
 
 .show_request {
-  transform: translate(0%, -4%) !important;
+  transform: translate(-158px, -30px) !important;
   opacity: 1 !important;
 }
 

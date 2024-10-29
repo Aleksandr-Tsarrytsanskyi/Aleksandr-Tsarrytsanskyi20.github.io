@@ -1,5 +1,76 @@
 @media screen and (max-width: 1440px){
-    #header ul li {
+  #request {
+    width: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 500;
+  }
+  
+  #request .cell {
+    height: 836px;
+  }
+
+  #position_request {
+    width: 500px;
+    margin-left: 157px;
+  }
+  
+  #request .cell {
+    padding-right: 7px;
+  }
+
+
+  #center_call {
+    width: 564px;
+  }  
+  
+  #call {
+    
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 400;
+   
+  }
+
+  .show_callback {
+    transform: translate(-29%, -1%) !important;
+  }
+
+  #call h6 {
+   color: #fff;
+   width: 567px;
+   font-size: 36px;
+  }
+
+  #call .content {
+    overflow: auto;
+    margin: 40px 0px 10px 33px;
+    width: auto;
+  }
+
+  #call .close {
+    position: relative;
+    margin: 24px 106px 0px 0px;
+  }
+
+  #call figcaption {
+    color: #fff;
+  }
+
+  #position_call {
+    z-index: 500;
+  }
+
+  #call .call {
+    grid-template-columns: 608px;
+    margin-left: 0;
+  }
+
+  #call .left {
+    margin-right: 28px;
+  }
+
+  #header ul li {
         float: none;
     }
 
@@ -307,6 +378,57 @@
         display: block;
         text-align: left;
       }
+}
+
+@media screen and (max-width: 1200px) {
+  #privacy_policy {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #request .cell {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #request .cell {
+    width: 300px;
+  }
+
+  #request h1 {
+    font-size: 23px;
+    ;line-height: 50px;
+  }
+
+  #request a {
+    width: 300px;
+    border-radius: 20px;
+    margin-left: -7px;
+  }
+
+  #request a:hover {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #privacy_policy {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #privacy_policy {
+    width: 300px;
+  }
+
+  #privacy_policy h1, #privacy_policy h2 {
+    font-size: 27px;
+    text-align: left;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -663,6 +785,76 @@
     #callback p {
       width: 294px;
     }
+}
+
+@media screen and (max-width: 590px) {
+  #center_call {
+    width: 310px;
+  }
+
+  /* #call .call {
+    grid-template-columns: 300px;
+  } */
+
+  #call .bg_form {
+    width: 310px;
+    height: 635px;
+    margin-top: 90px;
+    padding-top: 1px;
+  }
+
+  #call form {
+    width: 290px;
+    height: 618px;
+    margin: 10px;
+  }
+
+  #call input[type="tel"] {
+    width: 225px;
+    padding-left: 50px;
+    font-size: 16px;
+    margin-left: 6px;
+  }
+
+  #call p {
+    margin-left: 12px;
+  }
+
+  #call .content img {
+    width: 80px;
+  }
+
+  #call .position {
+    margin: 19px 0px 0px 15px;
+  }
+
+  #call .close {
+    margin: 38px 106px 0px 269px;
+  }
+
+  #call .close_form {
+    position: absolute;
+  }
+
+  #call .content {
+    display: none;
+  }
+
+  #call h6 {
+    display: none;
+  }
+
+  #call input[type="submit"] {
+    width: 275px;
+    margin-left: 8px;
+    font-size: 15px;
+  }
+
+  #call h6 {
+    width: 300px;
+    font-size: 28px;
+    line-height: 50px;
+  }
 }
 
 @media screen and (max-width: 390px) {
