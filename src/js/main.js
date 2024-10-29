@@ -6,6 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const items = document.querySelectorAll(".item")
     const  closeForm  = document.querySelector("#call .close")
     const request = document.querySelector("#request");
+    const hamburgerMenu = document.querySelector("#hamburger_menu");
+    const topmenu = document.querySelector("#header .cell:nth-child(2)");
+    const span1 = document.querySelector("#hamburger_menu .first_child");
+    const span2 = document.querySelector("#hamburger_menu .last_shild");
+    const span3 = document.querySelector("#hamburger_menu .center");
+    console.log(span1, span2, span3);
+    
     items.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
@@ -32,6 +39,13 @@ document.addEventListener("DOMContentLoaded", function() {
         anabladeScroll();
         call.classList.remove("show_callback");
         call.classList.add("hide_callback");
+    })
+
+    hamburgerMenu.addEventListener("click", function() {
+        topmenu.classList.toggle("show_hamburger")
+        span1.classList.toggle("icon1")
+        span2.classList.toggle("icon3")
+        span3.classList.toggle("none")
     })
 
     function disabledScroll() {

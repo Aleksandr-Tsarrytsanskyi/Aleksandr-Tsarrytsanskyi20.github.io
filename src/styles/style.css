@@ -195,8 +195,10 @@ body {
   margin: 470px 0 0 -206px;
 }
 
+
 #investments .more:hover {
   background: url("../images/hover_more.png") no-repeat center;
+  height: 76px;
 }
 
 #investments span {
