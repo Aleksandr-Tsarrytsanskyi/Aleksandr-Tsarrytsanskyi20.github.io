@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 
     closeForm.addEventListener("click", function() {
-       
-        call.classList.remove("show_callback");
+        anabladeScroll();
         call.classList.add("hide_callback");
+        call.classList.remove("show_callback");
     })
 
     hamburgerMenu.addEventListener("click", function() {
