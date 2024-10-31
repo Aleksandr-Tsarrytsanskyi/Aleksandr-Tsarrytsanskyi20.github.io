@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 
     closeForm.addEventListener("click", function() {
-        anabladeScroll();
+       
         call.classList.remove("show_callback");
         call.classList.add("hide_callback");
     })
