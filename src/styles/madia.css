@@ -11,6 +11,11 @@
     height: 836px;
   }
 
+  #call .close_form {
+    position: absolute;
+    z-index: 400;
+  }
+
   #position_request {
     width: 500px;
     margin-left: 157px;
