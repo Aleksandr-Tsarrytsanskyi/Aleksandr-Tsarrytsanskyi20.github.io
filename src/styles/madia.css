@@ -51,6 +51,7 @@
   #call .close {
     position: relative;
     margin: 24px 106px 0px 0px;
+    z-index: 500;
   }
 
   #call figcaption {
