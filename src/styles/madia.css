@@ -109,6 +109,7 @@
         float: right;
         cursor: pointer;
         margin: 26px 60px 10px -70px;
+        z-index: 400;
     }
 
     #hamburger_menu span {
@@ -835,6 +836,7 @@
 
   #call .close_form {
     position: absolute;
+    z-index: 400;
   }
 
   #call .content {
